@@ -1,0 +1,28 @@
+// HOMEPAGE
+.fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+
+  h1 {
+    position: absolute;
+    font-size: 190px;
+    text-align: center;
+  }
+}
+
+// this makes the video scale when going smaller screen
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 60em) {
+  #intro h1 {
+  font-size: 65px;
+  }
+}

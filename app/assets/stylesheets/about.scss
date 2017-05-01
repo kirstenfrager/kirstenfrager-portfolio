@@ -1,0 +1,133 @@
+// .about-section p {
+//   font-family: 'Raleway', sans-serif;
+//   font-size: 18px;
+// }
+//
+// #images {
+//   width: 600px;
+//   height: 350px;
+//   overflow: hidden;
+//   position: relative;
+//   margin: 20px auto;
+// }
+//
+// #images img {
+//   width: 550px;
+//   height: 350px;
+//
+//   position: absolute;
+//   top: 0;
+//   left: -400px;
+//   z-index: 1;
+//   opacity: 0;
+//
+//   transition: all linear 500ms;
+//   -o-transition: all linear 500ms;
+//   -moz-transition: all linear 500ms;
+//   -webkit-transition: all linear 500ms;
+// }
+//
+// #images img:target {
+//   left: 0;
+//   z-index: 9;
+//   opacity: 1;
+// }
+//
+// #images img:first-child {
+//   left: 0;
+//   opacity: 1;
+// }
+//
+// #slider a {
+//   text-decoration: none;
+//   background: #E3F1FA;
+//   border: 1px solid #C6E4F2;
+//   padding: 4px 6px;
+//   color: #222;
+// }
+//
+// #slider a:hover {
+//   background: #C6E4F2;
+// }
+
+input {
+  display: none;
+}
+
+.radio {
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	margin: 10px 10px 0 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Lato';
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	font-weight: 900;
+	cursor: pointer;
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+  transition: background-color .4s;
+}
+
+.radio:hover {
+  background-color: #727272;
+}
+
+input:checked ~ .radio {
+	color: #FFF;
+	background-color: #000;
+  opacity: 1;
+}
+
+.img-box {
+  width: 600px;
+  height: 350px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-box img {
+  width: 600px;
+  height: 380px;
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 2px 8px 10px -4px black;
+  -moz-box-shadow: 2px 8px 10px -4px black;
+  box-shadow: 2px 8px 10px -4px black;
+}
+
+#one, #two, #three, #four {
+  opacity: 0;
+  -webkit-transform: translate(0,30px);
+  transition-property: -webkit-transform, opacity;
+  transition-duration: .5s;
+  position: absolute;
+}
+
+#img-1:checked ~ .img-box #one,
+#img-2:checked ~ .img-box #two,
+#img-3:checked ~ .img-box #three,
+#img-4:checked ~ .img-box #four {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+}
+
+#img-1:checked ~ .nav label #dot-1.radio,
+#img-2:checked ~ .nav label #dot-2.radio,
+#img-3:checked ~ .nav label #dot-3.radio,
+#img-4:checked ~ .nav label #dot-4.radio {
+  color: #FFF;
+  background-color: #000;
+}
+
+.navigation {
+  width: 200px;
+  // margin: 0 auto;
+}
