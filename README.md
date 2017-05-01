@@ -1,24 +1,28 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Developer Portfolio**
+-------------
+This is a re-make of my first portfolio website:
+https://github.com/kirstenfrager/CFA-website-portfolio
+After completing term 2 at CFA and looking back at my portfolio, I noticed a lot of code repetition, sloppy design and just too much going on in general.
+The new version has a cleaner code, simpler design and is straight to the point.
 
-Things you may want to cover:
+----------
+**Design**
+-------------
+### Design Changes
 
-* Ruby version
+1. Fonts were changed to be more compatible on all browsers; previous portfolio wasn't rendering correct fonts for some users.
+2. Video size rendered according to screen size
+3. Projects and skills merged into one simple/clean page
+4. Contact section has simple display of contact links only
+5. About me page with write up and personal drone picture slider to show some personality
 
-* System dependencies
+----------
+### Few Screenshots
 
-* Configuration
 
-* Database creation
+![Home Page](https://lh3.googleusercontent.com/-w9zcrxHp9S0/WQcdwOnDSCI/AAAAAAAAAFY/MvmNphq2AQoOxpJ4i7bv6Idx4T1NNePTACLcB/s900/Screen+Shot+2017-05-01+at+9.30.42+pm.png "Screen Shot 2017-05-01 at 9.30.42 pm.png")
 
-* Database initialization
+![About Section](https://lh3.googleusercontent.com/-I5q0NW4-b8Q/WQcdjiQu-iI/AAAAAAAAAFQ/2E66OazRE78C6THc7eRxEL24pOyfhCsjgCLcB/s900/Screen+Shot+2017-05-01+at+9.30.33+pm.png "Screen Shot 2017-05-01 at 9.30.33 pm.png")
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Contact Section](https://lh3.googleusercontent.com/-iKdEmvaTge4/WQce8nGumKI/AAAAAAAAAFs/MfVQD8bWvgYtXC5ndev93rxKNZw6wlHJACLcB/s900/Screen+Shot+2017-05-01+at+9.29.42+pm.png "Screen Shot 2017-05-01 at 9.29.42 pm.png")
