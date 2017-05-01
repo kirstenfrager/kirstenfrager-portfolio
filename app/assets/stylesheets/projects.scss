@@ -1,0 +1,78 @@
+
+
+#projects .row {
+  /*padding-top: 20px;*/
+  margin-top: 25px;
+}
+
+.p-box {
+  // max-width: 30%;
+  height: 260px;
+//   box-shadow: 0 0 10px 10px #9E9E9E;
+  // margin: 1px;
+  border-radius: 10px;
+  display: flex;
+  display: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-name {
+  color: white;
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+.project-name:hover {
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px #FF4081;
+  text-decoration: none;
+}
+
+.p-box a {
+  color: #00BCD4 !important;
+  text-decoration: none !important;
+}
+
+.project-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.white {
+  background-color: white;
+}
+
+.quizgif {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122962/quiz_ks9vze.gif");
+}
+
+.tempgif {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122967/temp_kgx5ce.gif");
+}
+
+.github {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122947/github_x3trab.png");
+  background-size: 350px;
+}
+
+.zengif {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122972/zengarden_irncei.png");
+}
+
+.donaldtrump {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122938/donaldtrump_xdddga.png");
+}
+
+.influencethis {
+  background-image: url("https://res.cloudinary.com/df0hftplx/image/upload/v1493614983/FullSizeRender_2_lwwrxd.jpg");
+}
+
+.ksp {
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1493618728/Screen_Shot_2017-05-01_at_4.05.00_pm_q5qibr.png");
+}
