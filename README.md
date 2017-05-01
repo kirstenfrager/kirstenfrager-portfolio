@@ -26,3 +26,10 @@ The new version has a cleaner code, simpler design and is straight to the point.
 ![About Section](https://lh3.googleusercontent.com/-I5q0NW4-b8Q/WQcdjiQu-iI/AAAAAAAAAFQ/2E66OazRE78C6THc7eRxEL24pOyfhCsjgCLcB/s900/Screen+Shot+2017-05-01+at+9.30.33+pm.png "Screen Shot 2017-05-01 at 9.30.33 pm.png")
 
 ![Contact Section](https://lh3.googleusercontent.com/-iKdEmvaTge4/WQce8nGumKI/AAAAAAAAAFs/MfVQD8bWvgYtXC5ndev93rxKNZw6wlHJACLcB/s900/Screen+Shot+2017-05-01+at+9.29.42+pm.png "Screen Shot 2017-05-01 at 9.29.42 pm.png")
+
+----------
+### Future Developments
+
+>- Implement mailgun form (currently struggling to get mailgun to work once deployed to heroku)
+>- A "click me" sort of sign to get users to press the bars for the navigation menu (am waiting to learn javascript for me to then implement this function)
+>- Updates and more drone pictures for my carousel
