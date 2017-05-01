@@ -119,15 +119,15 @@ ul {
   box-shadow: 0 0px 0px rgba(4, 26, 62, 0.1);
 }
 
-nav.visible li:first-child {
-  width: 205vw;
-  height: 205vw;
-  top: -125vw;
-  right: -125vw;
-  z-index: 4;
-  transition: all .4s ease-in-out;
-  box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
-}
+// nav.visible li:first-child {
+//   width: 205vw;
+//   height: 205vw;
+//   top: -125vw;
+//   right: -125vw;
+//   z-index: 4;
+//   transition: all .4s ease-in-out;
+//   box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+// }
 
 nav.visible li:nth-child(2) {
   width: 165vw;
