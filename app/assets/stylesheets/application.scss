@@ -16,23 +16,25 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:200,300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Raleway Dots', cursive;*/
+// font-family: 'Open Sans Condensed', sans-serif;
 
 body {-webkit-text-size-adjust:100%;}
 
 .raleway {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
 .raleway-title {
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
   font-size: 100px;
   border-bottom: 1px solid #008FA3;
@@ -41,4 +43,8 @@ body {-webkit-text-size-adjust:100%;}
 
 .margin-top {
   margin-top: 2em;
+}
+
+.margin-top-bigger {
+  margin-top: 3em;
 }
